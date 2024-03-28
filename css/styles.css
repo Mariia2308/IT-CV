@@ -1,0 +1,292 @@
+body{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.my-heads{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #161D2A;
+    margin-bottom: 8px;
+}
+
+.my-underheads{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px; 
+}
+
+.bluetextaccent{
+    color: lightgreen;
+}
+
+
+.bluetext{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: lightblue;
+    margin-bottom: 8px;
+}
+
+.bluetextaccent {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: palevioletred;
+    margin-bottom: 8px;
+}
+
+.bluetextallow{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: lightblue;
+    margin-bottom: 8px;
+
+}
+.underheads2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #161D2A;
+    margin-bottom: 8px;
+}
+
+.my-dates{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+
+.my-summary{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #595959;
+}
+
+.my-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 8px;
+}
+.about-me{
+    padding-bottom: 40px;
+}
+.main-content{
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+}
+
+.sidebar{background: lightblue;
+    padding-bottom: 40px;
+
+}
+
+.sidebarother {
+    background: palevioletred;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.sidebar-content{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 80px;
+
+}
+
+.sidebar-content-it{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+
+}
+
+.my-item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+    padding: 5px;
+
+    list-style: none;
+}
+
+.team-social-item {
+    width: 44px;
+    height: 44px;
+}
+
+.team-social-link {
+    display: block;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    color: white;
+    background-color: gray;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    color: #ffffff;
+    background-color: lightgray;
+}
+
+.team1-social-link {
+    display: block;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    color: white;
+    background-color: pink;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team1-social-link:hover,
+.team1-social-link:focus {
+    color: #ffffff;
+    background-color: lightcoral;
+}
+
+.team-social-icon {
+    margin: 12px;
+    fill: currentColor;
+}
+
+.project-item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    list-style: decimal;
+}
+.skills-list-lang{
+    padding-left: 20px;
+    display: flex;
+    gap: 150px;
+}
+
+.skills-list-skill{
+
+        display: flex;
+        gap: 70px;
+}
+
+.contacts-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: black;
+}
+
+.projects-tech{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#161D2A;
+}
+
+.team-stars{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 5px;
+}
+
+.team-stars-lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+.skills-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#161D2A;
+    list-style: disc;
+}
+.skills-list{
+    padding-left: 20px;
+}
+
+.team-social-icon-git{
+    margin: 7px;
+}
+
+
+
+
+.contacts-container{
+    margin-bottom: 20px;
+}
+
+.project-container{
+    margin-bottom: 20px;
+}
+
+.company-container{
+    margin-bottom: 20px;
+}
+
